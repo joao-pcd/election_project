@@ -1,7 +1,8 @@
-package infrastructure.resources;
+package domain;
 
 import api.dto.in.CreateCandidate;
 import api.dto.in.UpdateCandidate;
+import infrastructure.resources.CandidateResource;
 import io.quarkus.test.common.http.TestHTTPEndpoint;
 import io.quarkus.test.junit.QuarkusIntegrationTest;
 import jakarta.ws.rs.core.MediaType;
